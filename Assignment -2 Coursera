@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:33.33%;
+  padding-top: 0%;
+  height: 250px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+text-align:center;
+}
+.row > div {
+  width: 485px;
+  margin: 10px;
+  text-align: center;
+}
+.first {
+                text-align:top;
+                text-align: right;
+                color:black;
+                background-color: rgb(204, 138, 149);
+                width: 100px;
+                border:1px solid black;
+                padding:2px 25px 2px 2px;
+ 
+            }
+            .second {
+                text-align:top;
+                text-align: right;
+                color:white;
+                background-color: rgb(185, 49, 49);
+                width:100px;
+                border:1px solid black;
+                padding:2px 25px 2px 2px;
+            }
+            .third {
+                text-align:top;
+                text-align: right;
+                color:black;
+                background-color: rgb(208, 208, 116); 
+                width:100px;             
+                border:1px solid black;
+                padding:2px 25px 2px 0px;
+            }
+</style>
+</head>
+<body>
+
+<h2>Our Menu</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa; border:1px solid black;">
+    <h4 class="first">Chiken</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum, nobis ratione tenetur delectus error tempora consequatur molestias voluptatibus ab, sapiente, fugit et! Pariatur esse, quos dolore corrupti saepe fugiat?</p>
+  </div>
+  <div class="column" style="background-color:#aaa; border:1px solid black;">
+    <h4 class="second">Beef</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi autem, dolorum dolore similique laboriosam sit vitae ipsum. Rem consequuntur quas, velit, rerum, excepturi ducimus ipsam dicta laborum reprehenderit doloremque numquam.</p>
+  </div>
+  <div class="column" style="background-color:#aaa; border:1px solid black;">
+    <h4 class="third">Sushi</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ea optio odio. Explicabo quam corporis quaerat modi veritatis labore debitis cumque impedit fuga, laudantium amet architecto optio autem sint harum.</p>
+  </div>
+</div>
+
+</body>
+</html>
